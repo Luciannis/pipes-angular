@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+//Modulo Personalizado
+import { PrimeNgModule } from './prime-ng/prime-ng.module';
 
 @NgModule({
   declarations: [
@@ -9,6 +11,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule
+    ,PrimeNgModule
   ],
   providers: [],
   bootstrap: [AppComponent]
