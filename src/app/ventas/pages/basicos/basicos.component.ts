@@ -10,4 +10,6 @@ export class BasicosComponent {
   nombreUper:string = "FRANCISCO";
   nombreCompleto:string = "kjsdfKJSds";
 
+  fecha:Date = new Date(); // el dia de hoy
+
 }
